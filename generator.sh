@@ -59,8 +59,8 @@ $c -resize 256x256 -extent 320x480  "$SCREENDIR/Default~iphone.png"
 $c -resize 512x512 -extent 640x960  "$SCREENDIR/Default@2x~iphone.png"
 $c -resize 512x512 -extent 640x1136 "$SCREENDIR/Default-568h@2x~iphone.png"
 # iPad
-$c -resize 512x512   -extent 768x1024  "$SCREENDIR/Default-Portrait~iPad.png"
-$c -resize 1024x1024 -extent 1536x2048 "$SCREENDIR/Default-Portrait@2x~iPad.png"
-$c -resize 512x512   -extent 1024x768  "$SCREENDIR/Default-Landscape~iPad.png"
-$c -resize 1024x1024 -extent 2048x1536 "$SCREENDIR/Default-Landscape@2x~iPad.png"
+$c -resize 512x512   -extent 768x1024  "$SCREENDIR/Default-Portrait~ipad.png"
+$c -resize 1024x1024 -extent 1536x2048 "$SCREENDIR/Default-Portrait@2x~ipad.png"
+$c -resize 512x512   -extent 1024x768  "$SCREENDIR/Default-Landscape~ipad.png"
+$c -resize 1024x1024 -extent 2048x1536 "$SCREENDIR/Default-Landscape@2x~ipad.png"
 
