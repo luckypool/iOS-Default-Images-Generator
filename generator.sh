@@ -2,7 +2,7 @@
 
 # Usage
 # -------------------------------------------
-usage() { echo "usage: $0 src_image bgcolor [dst_dir]"; exit 1; }
+usage() { echo "usage: $0 src_image bg_color [dst_dir]"; exit 1; }
 [ "$1" ] && [ "$2" ] || usage
 [ "$3" ] || set "$1" "$2" "./dst"
 

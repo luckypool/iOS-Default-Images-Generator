@@ -14,11 +14,14 @@ $ brew install imagemagick
 ## Usage
 
 ```
-usage: ./generator.sh icon color [dest_dir]
+usage: ./generator.sh src_image bg_color [dst_dir]
 ```
 
-- icon:  'App Icons' source file. (1024x1024 size png)
-- color: Background collor of 'App Launch (Default) Images'. You can set value like [this](http://www.imagemagick.org/script/command-line-options.php#fill).
+options
+
+- `src_image`: 'App Icons' source file. (1024x1024 size png)
+- `bg_color`:  Background collor of 'App Launch (Default) Images'. You can set value like [this](http://www.imagemagick.org/script/command-line-options.php#fill).
+- `dst_dir`: Destination directory for images (optional).
 
 ## Example
 
