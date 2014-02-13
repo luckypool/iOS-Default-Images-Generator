@@ -1,5 +1,5 @@
-iphone-icons-generator
-======================
+iOS-Default-Images-Generator
+============================
 
 Auto generator for 'App Icons' and 'App Launch (Default) Images'
 
