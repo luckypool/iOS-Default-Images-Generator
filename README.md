@@ -26,7 +26,7 @@ options
 ## Example
 
 ```
-$ ./generator.sh d_1024.png "#4e4e4e"
+$ ./generator.sh d_1024px.png "#FF4981"
 ```
 
 Above command generates:
@@ -34,7 +34,7 @@ Above command generates:
 ```
 .
 ├── README.md
-├── d_1024.png
+├── d_1024px.png
 ├── dst
 │   ├── icon
 │   │   ├── Icon-60.png
