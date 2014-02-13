@@ -1,7 +1,7 @@
 iOS-Default-Images-Generator
 ============================
 
-Auto generator for 'App Icons' and 'App Launch (Default) Images'
+Script to generate 'App Icons' and 'App Launch (Default) Images'
 
 ## Prepare
 
