@@ -36,9 +36,15 @@ $c "$1" -resize 120x120 "$ICONDIR/Icon-60@2x.png"
 # iPad iOS7
 $c "$1" -resize 76x76   "$ICONDIR/Icon-76.png"
 $c "$1" -resize 152x152 "$ICONDIR/Icon-76@2x.png"
-# Preference/Spotlight
+# Setting
 $c "$1" -resize 29x29   "$ICONDIR/Icon-Small.png"
 $c "$1" -resize 58x58   "$ICONDIR/Icon-Small@2x.png"
+# Spotlight
+$c "$1" -resize 40x40   "$ICONDIR/Icon-Small-40.png"
+$c "$1" -resize 80x80   "$ICONDIR/Icon-Small-40@2x.png"
+$c "$1" -resize 50x50   "$ICONDIR/Icon-Small-50.png"
+$c "$1" -resize 100x100 "$ICONDIR/Icon-Small-50@2x.png"
+
 # AppStore
 $c "$1" -resize 512x512   "$ICONDIR/iTunesArtwork.png"
 $c "$1" -resize 1024x1024 "$ICONDIR/iTunesArtwork@2x.png"
