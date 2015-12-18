@@ -33,15 +33,21 @@ $c "$1" -resize 144x144 "$ICONDIR/Icon-72@2x.png"
 # iPhone iOS7
 $c "$1" -resize 60x60   "$ICONDIR/Icon-60.png"
 $c "$1" -resize 120x120 "$ICONDIR/Icon-60@2x.png"
+$c "$1" -resize 180x180 "$ICONDIR/Icon-60@3x.png"
 # iPad iOS7
 $c "$1" -resize 76x76   "$ICONDIR/Icon-76.png"
 $c "$1" -resize 152x152 "$ICONDIR/Icon-76@2x.png"
+# iPad Pro
+$c "$1" -resize 167x167   "$ICONDIR/Icon-83.5@2x.png"
 # Setting
-$c "$1" -resize 29x29   "$ICONDIR/Icon-Small.png"
-$c "$1" -resize 58x58   "$ICONDIR/Icon-Small@2x.png"
+$c "$1" -resize 29x29   "$ICONDIR/Icon-Small-29.png"
+$c "$1" -resize 58x58   "$ICONDIR/Icon-Small-29@2x.png"
+$c "$1" -resize 87x87   "$ICONDIR/Icon-Small-29@3x.png"
 # Spotlight
 $c "$1" -resize 40x40   "$ICONDIR/Icon-Small-40.png"
 $c "$1" -resize 80x80   "$ICONDIR/Icon-Small-40@2x.png"
+$c "$1" -resize 120x120   "$ICONDIR/Icon-Small-40@3x.png"
+# 50
 $c "$1" -resize 50x50   "$ICONDIR/Icon-Small-50.png"
 $c "$1" -resize 100x100 "$ICONDIR/Icon-Small-50@2x.png"
 
@@ -63,4 +69,3 @@ $c -resize 512x512   -extent 768x1024  "$SCREENDIR/Default-Portrait~ipad.png"
 $c -resize 1024x1024 -extent 1536x2048 "$SCREENDIR/Default-Portrait@2x~ipad.png"
 $c -resize 512x512   -extent 1024x768  "$SCREENDIR/Default-Landscape~ipad.png"
 $c -resize 1024x1024 -extent 2048x1536 "$SCREENDIR/Default-Landscape@2x~ipad.png"
-
