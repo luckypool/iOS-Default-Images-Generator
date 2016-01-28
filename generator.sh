@@ -50,6 +50,8 @@ $c "$1" -resize 120x120   "$ICONDIR/Icon-Small-40@3x.png"
 # 50
 $c "$1" -resize 50x50   "$ICONDIR/Icon-Small-50.png"
 $c "$1" -resize 100x100 "$ICONDIR/Icon-Small-50@2x.png"
+#iPad Pro
+$c "$1" -resize 167x167 "$ICONDIR/Icon-Small-83.5@2x.png"
 
 # AppStore
 $c "$1" -resize 512x512   "$ICONDIR/iTunesArtwork.png"
