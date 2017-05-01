@@ -40,6 +40,10 @@ $c "$1" -resize 152x152 "$ICONDIR/Icon-76@2x.png"
 # iPad Pro
 $c "$1" -resize 167x167   "$ICONDIR/Icon-83.5@2x.png"
 
+#Logo
+$c "$1" -resize 341x341   "$ICONDIR/Icon-341.png"
+$c "$1" -resize 682x682   "$ICONDIR/Icon-341@2x.png"
+$c "$1" -resize 1023x1023   "$ICONDIR/Icon-341@3x.png"
 
 $c "$1" -resize 20x20   "$ICONDIR/Icon-20x.png"
 $c "$1" -resize 40x40   "$ICONDIR/Icon-20@2x.png"
