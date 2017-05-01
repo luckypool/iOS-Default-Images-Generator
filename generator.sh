@@ -25,8 +25,8 @@ set -x
 c="convert -background none"
 
 # iPhone iOS 5/6
-$c "$1" -resize 57x57   "$ICONDIR/Icon.png"
-$c "$1" -resize 114x114 "$ICONDIR/Icon@2x.png"
+$c "$1" -resize 57x57   "$ICONDIR/Icon-57.png"
+$c "$1" -resize 114x114 "$ICONDIR/Icon-57@2x.png"
 # iPad iOS 5/6
 $c "$1" -resize 72x72   "$ICONDIR/Icon-72.png"
 $c "$1" -resize 144x144 "$ICONDIR/Icon-72@2x.png"
