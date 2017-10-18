@@ -24,6 +24,52 @@ set -x
 # -------------------------------------------
 c="convert -background none"
 
+# iPhone Notification 20x20
+$c "$1" -resize 40x40   "$ICONDIR/AppIcon-20@2x.png"
+$c "$1" -resize 60x60 "$ICONDIR/AppIcon-20@3x.png"
+
+# iPhone Spotlight / Settings 29x29 
+$c "$1" -resize 58x58   "$ICONDIR/AppIcon-29@2x.png"
+$c "$1" -resize 87x87 "$ICONDIR/AppIcon-29@3x.png"
+
+# iPhone Spotlight 40x40 
+$c "$1" -resize 80x80   "$ICONDIR/AppIcon-40@2x.png"
+$c "$1" -resize 120x120 "$ICONDIR/AppIcon-40@3x.png"
+
+# iPhone App 60x60 
+$c "$1" -resize 120x120   "$ICONDIR/AppIcon-60@2x.png"
+$c "$1" -resize 180x180 "$ICONDIR/AppIcon-60@3x.png"
+
+# iPad Notifications
+$c "$1" -resize 20x20   "$ICONDIR/AppIcon-20.png"
+$c "$1" -resize 40x40 "$ICONDIR/AppIcon-20@2x.png"
+
+# iPad Notifications
+$c "$1" -resize 20x20   "$ICONDIR/AppIcon-20.png"
+$c "$1" -resize 40x40 "$ICONDIR/AppIcon-20@2x.png"
+
+# iPad Settings
+$c "$1" -resize 29x29   "$ICONDIR/AppIcon-29.png"
+$c "$1" -resize 58x58 "$ICONDIR/AppIcon-58@2x.png"
+
+# iPad Spotlight
+$c "$1" -resize 40x40   "$ICONDIR/AppIcon-40.png"
+$c "$1" -resize 80x80 "$ICONDIR/AppIcon-40@2x.png"
+
+# iPad App
+$c "$1" -resize 76x76   "$ICONDIR/AppIcon-76.png"
+$c "$1" -resize 172x172 "$ICONDIR/AppIcon-76@2x.png"
+
+# iPad Pro App
+$c "$1" -resize 167x167   "$ICONDIR/AppIcon-83_5.png"
+
+# App Store
+$c "$1" -resize 1024x1024   "$ICONDIR/AppIcon-1024.png"
+
+# 20x20 @2x
+$c "$1" -resize 40x40   "$ICONDIR/Icon-20@2x.png"
+$c "$1" -resize 60x60 "$ICONDIR/Icon-20@3x.png"
+
 # iPhone iOS 5/6
 $c "$1" -resize 57x57   "$ICONDIR/Icon-57.png"
 $c "$1" -resize 114x114 "$ICONDIR/Icon-57@2x.png"
@@ -43,7 +89,7 @@ $c "$1" -resize 167x167   "$ICONDIR/Icon-83.5@2x.png"
 #Logo
 $c "$1" -resize 341x341   "$ICONDIR/Icon-341.png"
 $c "$1" -resize 682x682   "$ICONDIR/Icon-341@2x.png"
-$c "$1" -resize 1023x1023   "$ICONDIR/Icon-341@3x.png"
+$c "$1" -resize 1023x1023 "$ICONDIR/Icon-341@3x.png"
 
 $c "$1" -resize 20x20   "$ICONDIR/Icon-20x.png"
 $c "$1" -resize 40x40   "$ICONDIR/Icon-20@2x.png"
@@ -65,6 +111,7 @@ $c "$1" -resize 167x167 "$ICONDIR/Icon-Small-83.5@2x.png"
 
 # AppStore
 $c "$1" -resize 512x512   "$ICONDIR/iTunesArtwork.png"
+
 $c "$1" -resize 1024x1024 "$ICONDIR/iTunesArtwork@2x.png"
 
 
