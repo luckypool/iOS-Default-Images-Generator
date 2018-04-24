@@ -26,54 +26,54 @@ set -x
 c="convert -background none"
 
 # iPhone Notification 20x20
-$c "$1" -resize 40x40   "$APPICONDIR/AppAppIcon-20@2x.png"
-$c "$1" -resize 60x60 "$APPICONDIR/AppAppIcon-20@3x.png"
+$c "$1" -resize 40x40   "$APPICONDIR/AppIcon-20@2x.png"
+$c "$1" -resize 60x60 "$APPICONDIR/AppIcon-20@3x.png"
 
 # iPad Spotlight 
-$c "$1" -resize 50x50   "$APPICONDIR/AppAppIcon-50.png"
-$c "$1" -resize 100x100   "$APPICONDIR/AppAppIcon-50@2x.png"
+$c "$1" -resize 50x50   "$APPICONDIR/AppIcon-50.png"
+$c "$1" -resize 100x100   "$APPICONDIR/AppIcon-50@2x.png"
 
 # iPhone Spotlight / Settings 29x29 
-$c "$1" -resize 58x58   "$APPICONDIR/AppAppIcon-29@2x.png"
-$c "$1" -resize 87x87 "$APPICONDIR/AppAppIcon-29@3x.png"
+$c "$1" -resize 58x58   "$APPICONDIR/AppIcon-29@2x.png"
+$c "$1" -resize 87x87 "$APPICONDIR/AppIcon-29@3x.png"
 
 # iPhone Spotlight 40x40 
-$c "$1" -resize 80x80   "$APPICONDIR/AppAppIcon-40@2x.png"
-$c "$1" -resize 120x120 "$APPICONDIR/AppAppIcon-40@3x.png"
+$c "$1" -resize 80x80   "$APPICONDIR/AppIcon-40@2x.png"
+$c "$1" -resize 120x120 "$APPICONDIR/AppIcon-40@3x.png"
 
 # iPhone App 60x60 
-$c "$1" -resize 120x120   "$APPICONDIR/AppAppIcon-60@2x.png"
-$c "$1" -resize 180x180 "$APPICONDIR/AppAppIcon-60@3x.png"
+$c "$1" -resize 120x120   "$APPICONDIR/AppIcon-60@2x.png"
+$c "$1" -resize 180x180 "$APPICONDIR/AppIcon-60@3x.png"
 
 # iPad Notifications
-$c "$1" -resize 20x20   "$APPICONDIR/AppAppIcon-20.png"
-$c "$1" -resize 40x40 "$APPICONDIR/AppAppIcon-20@2x.png"
+$c "$1" -resize 20x20   "$APPICONDIR/AppIcon-20.png"
+$c "$1" -resize 40x40 "$APPICONDIR/AppIcon-20@2x.png"
 
 # iPad Notifications
-$c "$1" -resize 20x20   "$APPICONDIR/AppAppIcon-20.png"
-$c "$1" -resize 40x40 "$APPICONDIR/AppAppIcon-20@2x.png"
+$c "$1" -resize 20x20   "$APPICONDIR/AppIcon-20.png"
+$c "$1" -resize 40x40 "$APPICONDIR/AppIcon-20@2x.png"
 
 # iPad Settings
-$c "$1" -resize 29x29   "$APPICONDIR/AppAppIcon-29.png"
-$c "$1" -resize 58x58 "$APPICONDIR/AppAppIcon-58@2x.png"
+$c "$1" -resize 29x29   "$APPICONDIR/AppIcon-29.png"
+$c "$1" -resize 58x58 "$APPICONDIR/AppIcon-58@2x.png"
 
 # iPad Spotlight
-$c "$1" -resize 40x40   "$APPICONDIR/AppAppIcon-40.png"
-$c "$1" -resize 80x80 "$APPICONDIR/AppAppIcon-40@2x.png"
+$c "$1" -resize 40x40   "$APPICONDIR/AppIcon-40.png"
+$c "$1" -resize 80x80 "$APPICONDIR/AppIcon-40@2x.png"
 
 # iPad App(iOS 5,6)
-$c "$1" -resize 76x76   "$APPICONDIR/AppAppIcon-76.png"
-$c "$1" -resize 152x152 "$APPICONDIR/AppAppIcon-76@2x.png"
+$c "$1" -resize 76x76   "$APPICONDIR/AppIcon-76.png"
+$c "$1" -resize 152x152 "$APPICONDIR/AppIcon-76@2x.png"
 
 # iPad App(iOS 7-11)
-$c "$1" -resize 76x76   "$APPICONDIR/AppAppIcon-76.png"
-$c "$1" -resize 152x152 "$APPICONDIR/AppAppIcon-76@2x.png"
+$c "$1" -resize 76x76   "$APPICONDIR/AppIcon-76.png"
+$c "$1" -resize 152x152 "$APPICONDIR/AppIcon-76@2x.png"
 
 # iPad Pro App
-$c "$1" -resize 167x167   "$APPICONDIR/AppAppIcon-83_5.png"
+$c "$1" -resize 167x167   "$APPICONDIR/AppIcon-83_5.png"
 
 # App Store
-$c "$1" -resize 1024x1024   "$APPICONDIR/AppAppIcon-1024.png"
+$c "$1" -resize 1024x1024   "$APPICONDIR/AppIcon-1024.png"
 
 # iPhone Spotlight
 $c "$1" -resize 40x40   "$APPICONDIR/AppIcon-20@2x.png"
