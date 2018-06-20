@@ -14,6 +14,7 @@ SCREENDIR=$3/screen
 LOGODIR=$3/logo
 eval mkdir -p "$APPICONDIR"
 eval mkdir -p "$SCREENDIR"
+eval mkdir -p "$LOGODIR"
 
 
 # Show progress
@@ -85,6 +86,7 @@ $c "$1" -resize 114x114 "$APPICONDIR/AppIcon-57@2x.png"
 # iPad iOS 5/6
 $c "$1" -resize 72x72   "$APPICONDIR/AppIcon-72.png"
 $c "$1" -resize 144x144 "$APPICONDIR/AppIcon-72@2x.png"
+$c "$1" -resize 216x216 "$APPICONDIR/AppIcon-72@3x.png"
 # iPhone iOS7
 $c "$1" -resize 60x60   "$APPICONDIR/AppIcon-60.png"
 $c "$1" -resize 120x120 "$APPICONDIR/AppIcon-60@2x.png"
