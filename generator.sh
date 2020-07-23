@@ -73,6 +73,11 @@ $c "$1" -resize 152x152 "$APPICONDIR/AppIcon-76@2x.png"
 # iPad Pro App
 $c "$1" -resize 167x167   "$APPICONDIR/AppIcon-83_5.png"
 
+# iPhone Spotlight - iOS 7-13
+$c "$1" -resize 80x80  "$APPICONDIR/AppIcon-40@2x.png"
+$c "$1" -resize 120x120  "$APPICONDIR/AppIcon-40@3x.png"
+
+
 # App Store
 $c "$1" -resize 1024x1024   "$APPICONDIR/AppIcon-1024.png"
 
